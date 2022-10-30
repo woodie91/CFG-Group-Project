@@ -1,8 +1,12 @@
 body {
-background-color: aqua;
+background-color: green;
 }
 
-.image {
-    height: 10px;
-    font-weight: 10px;
-}
+table {
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
+
