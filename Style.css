@@ -1,8 +1,8 @@
 body {
-
+background-color: aqua;
 }
 
-#image {
+.image {
     height: 10px;
     font-weight: 10px;
 }
