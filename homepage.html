@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Homepage</title>
+</head>
+<body style="background-color: #f2ebe5">
+      <div class="topnav" id="topnav-left">
+        <a class="active" href="homepage.html">Home</a>
+        <a href="ourRecipes.html">Our Recipes</a>
+      </div>
+
+      <div class="topnav" id="topnav-right">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+<!-- website name -->
+<h1 class="logo">Nibbles.</h1>
+
+<h3 class="trending">Trending meals...</h3> 
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides">
+      <img src="/Recipe Project/Images/soup.jpg" style="width: 700px;">
+      <div class="text">Roasted Butternut Squash Soup</div>
+    </div>
+    <div class="mySlides">
+      <img src="Images/img2.jpg" style="width:100%">
+      <div class="text">Avocado & Egg Brunch</div>
+    </div>
+    <div class="mySlides">
+      <img src="Images/img3.jpg" style="width:100%">
+      <div class="text">Tangerine Tart</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+<p class="welcome">Welcome! We are Bhavini, Lucy and Zoe, the creators of Nibbles. If you enjoy cooking scrumptious homecooked meals, you'll find a variety of recipes for every season and occassion inspired by our travels across the Globe. <a href="#about">Click here to find out more about us...</a></p>
+</p>
+
+<div class="row">
+  <div class="column">
+    <img src="/Recipe Project/Images/couscous.jpg" alt="Couscous" style="width:100%">
+    <div class="recipe-links">Spiced Chickpea, Feta & Olive Couscous</div>
+    <div class="landingpage-link"><a href="Sweet.html"></a>Find more plant-based meals here...</a></div>
+  </div>
+  <div class="column">
+    <img src="/Recipe Project/Images/cake.jpg" alt="Chocolate Cake" style="width:100%">
+    <div class="recipe-links" ">Dark Chocolate Mousse Cake</div>
+    <div class="landingpage-link"><a href="Sweet.html">More sweet delights this way...</a></div>
+  </div>
+  <div class="column">
+    <img src="/Recipe Project/Images/spaghetti.jpg" alt="Mountains" style="width:100%">
+    <div class="recipe-links" href="">Sundried Tomato & Spinach Spaghetti</div>
+    <div class="landingpage-link"><a href=".html"></a>More comforting meals here...</a></div>
+  </div>
+</div>
+
+<!--newsletter -->
+  <form action="action_page.php">
+    <div class="container">
+      <h2 style="color:#2F365F">Subscribe to our Newsletter</h2>
+      <p style="color:#2F365F">Fill out the form below and then you're only a couple of clicks away from receiving weekly delicious recipes in your inbox!</p>
+    </div>
+
+  
+    <div class="newsletter" style="background-color:#2F365F">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+      <label>
+        <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
+      </label>
+    </div>
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+
+</body>
+<script src="javascript.js"</script></script>
+
+</html>
