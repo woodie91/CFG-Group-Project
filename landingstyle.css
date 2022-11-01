@@ -94,14 +94,16 @@ li a:hover{
 
 .recipecontainer div{
     width:260px;
-    height:150px;
+    height:350px;
     border:3px solid;
+    border-color:goldenrod;
     
 }
 
 .recipecontainer{
     display:flex;
     justify-content: space-between;
+    color:goldenrod;
 
 }
 
@@ -111,6 +113,7 @@ li a:hover{
     text-align: center;
     padding-bottom:10px;
     padding-top:10px;
+    color:goldenrod;
     
 
 }
@@ -121,9 +124,19 @@ li a:hover{
 
 .recipecontainer h4{
     text-align: center;
+    padding-top:10px;
+    color:goldenrod;
 }
 
 .recipecontainer{
     padding-left: 30px;
     padding-right: 30px;
+    text-align:center;
 }
+
+.recipecontainer img{
+    width:200px;
+    
+}
+
+/* about us styling*/
