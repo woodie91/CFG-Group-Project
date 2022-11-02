@@ -215,6 +215,11 @@ border-color:goldenrod;
     text-align: center;
     padding-left:30px;
     padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: solid 3px;
+    Margin-left:30px;
+    margin-right:30px;
 }
 
 .story{
@@ -264,4 +269,5 @@ footer{
     color:cornflowerblue;
     text-align: center;
     padding-top: 50px;
+    padding-bottom:20px;
 }
