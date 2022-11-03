@@ -1,14 +1,27 @@
 body {
     text-align: center;
-    background-color: #f2ebe5;
+    background-color: #f7f7f7;
     font-family: "Nunito", sans-serif;
 }
 
+.logohead{
+    background-color:#d01c5b;
+}
+
+.logohead img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    align-content: center;
+}
+
 /*nav bar*/
+
 .topnav a {
     float: left;
-    color: white;
-    background-color: #2F365F;
+    color: #f7f7f7;
+    background-color: #374785;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -17,31 +30,50 @@ body {
   }
 
   .topnav a:hover {
-    background-color:#f26659;
-    color: #2F365F; 
+    background-color:#FAD744;
+    color: #374785; 
   }
 
   .topnav a.active {
-    background-color: 
-    color: white;
+    background-color: #FAD744;
+    color: #FAD744;
   }
+
+  .title {
+    color: #374785;
+    padding-top:20px;
+
+  }
+
+ .ingredients {
+    background-color: #374785;
+    color: #f7f7f7;
+    padding: 10px;
+}
+
+ .instructions {
+    color: #374785; 
+    padding-top:20px;
+    background-color: #f7f7f7;
+}
 
 ul {
     text-align: left;
     list-style-type: circle;
+    color: #374785;
 }
 
 ol {
     text-align: left;
-    list-style-type:
+    list-style-type:circle;
+    color: #374785;
 }
 
 button {
-    background-color: white;
-  color: black;
-  border: 2px solid #fd8e20;
+  background-color: #FAD744;
+  color: #374785;
+  border: 2px solid #d01c5b;
   border-radius: 8px;
   padding: 12px 28px;
   text-align: center;
 }
-
