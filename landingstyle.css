@@ -6,10 +6,6 @@ body{
     color:#d01c5b;
 }
 
-.topnav{
-    background-color:#f7f7f7;
-}
-
 body{
     font-family: 'Nunito', sans-serif;
 }
@@ -40,7 +36,7 @@ logo styling
 nav bar styling
 */
 
-nav{
+/* nav{
     background-color:#374785;
     height:50px;
     padding: 0;
@@ -64,9 +60,78 @@ nav ul li a{
 
 li a:hover{
     background-color:#FAD744;
-    color: #374785;
+    color: #374785; */
+/*nav bar*/
 
-}
+.topnav a {
+    float: left;
+    color: #f7f7f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .topnav a:hover {
+    background-color:#FAD744;
+    color: #374785;
+  }
+
+  .topnav a.active {
+    background-color: #374785;
+    color: #f7f7f7;
+  }
+
+/* drop down Our Recipes*/
+.dropdown {
+    float: left;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #f7f7f7;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #FAD744;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FAD744;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #374785;
+    color:#f7f7f7;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 /* title styling */
 .title {
