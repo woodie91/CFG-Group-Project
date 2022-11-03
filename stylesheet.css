@@ -1,3 +1,4 @@
+
 /*nav bar*/
 .topnav a {
     float: left;
@@ -18,6 +19,57 @@
     background-color: #374785;
     color: #f7f7f7;
   }
+
+  /* drop down Our Recipes*/
+.dropdown {
+  float: left;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: #f7f7f7;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #FAD744;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FAD744;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #374785;
+  color:#f7f7f7;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 /*logo*/ 
 .logohead img{
   display: block;
@@ -39,36 +91,42 @@
   .mySlides {
     display: none;
   }
+
+  /* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
   
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
+ /* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
   
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 10%;
-  }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
   
-  /* hover */
-  .prev:hover, .next:hover {
-    background-color: #BB1F44;
-    border-radius: 10%;
-  }
-  
-  /* Caption text of highlight recipes */
+  /* Caption text of highlight recipes
   .text {
     color: #f7f7f7;
     font-size: 30px;
@@ -80,9 +138,38 @@
     font-family: "Nunito", sans-serif;
     font-weight: bold;
     text-shadow: 2px 2px 5px grey;
-  }
+  } */
 
-  
+  /* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.4;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
   /* The dots*/
   .dot {
     cursor: pointer;
@@ -212,6 +299,7 @@ input[type=text], input[type=submit] {
   border: 1px solid #ccc;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  border-radius: 12px;
 }
 
 /* checkbox */
@@ -219,6 +307,7 @@ input[type=checkbox] {
   margin-top: 16px;
   color: #f7f7f7;
   font-family: "Nunito", sans-serif;
+  border-radius: 12px;
 }
 
 /* submit button */
