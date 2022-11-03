@@ -4,21 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./recipeStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Plant based</title>
-    
 </head>
 <body>
-  <div class="topnav" id="topnav-left">
-    <a class="active" href="homepage.html">Home</a>
-    <a href="ourRecipes.html">Our Recipes</a>
+  <div class="logohead">
+      <img src="secretrecipelogo.png" alt="logo" class="center">
   </div>
 
-  <div class="topnav" id="topnav-right">
-    <a href="about.html">About</a>
-    <a href="contactus.html">Contact</a>
-  </div>
-    <h1>Plant-based</h1>
+  <nav class="navbar navbar-expand-md bg-light navbar-light">
+   <!-- Brand -->
+   <a class="navbar-brand" href="ourRecipes.html">Our Recipes</a>
+  
+   <!-- Toggler/collapsibe Button -->
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+ 
+   <!-- Navbar links -->
+   <div class="collapse navbar-collapse" id="collapsibleNavbar">
+     <ul class="navbar-nav">
+       <li class="nav-item">
+         <a class="nav-link" href="homepage.html">Home</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="about.html">About</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="contactus.html">Contact Us</a>
+       </li>
+     </ul>
+   </div>
+ </nav>
+    <h1 class="title">Plant-based</h1>
 
     <table>
         <tr>
@@ -35,8 +57,21 @@
           <td>A vegan twist on this take-out classic, Sweet and Sour Chickpeas are speedy, saucy, and a little bit spicy!</td> 
         </tr>
       </table>
-
-     
-
-</body>
-</html>
+    </body>
+    <footer>
+      <div class="address">
+        <div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            </div>  
+        <p>© Copyright The Secret Recipe Ltd.</p> 
+        <p>48 Leicester Square</p>
+        <p>London</p>
+        <p>WC2H 7LU</p>
+       </div>
+     </footer>
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    </html>
